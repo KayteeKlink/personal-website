@@ -58,3 +58,80 @@ MerchTracker is an inventory management app designed to simplify the tracking an
 **Category:** Cross-Platform Mobile Development, Real-Time Data Synchronization, User Interface Design
 
 [View Project on GitHub](https://github.com/KayteeKlink/merch-tracker)
+
+---
+caption: #what displays in the portfolio grid:
+  title: Test Solutions
+  subtitle: Damn I Just Love Test
+  thumbnail: ../assets/img/portfolio/blackabstract.jpg
+  
+#what displays when the item is clicked:
+title: Test Solutions
+subtitle: Damn I Just Love Test
+image: ../assets/img/portfolio/cute_divider.png #main image, can be a link or a file in assets/img/portfolio
+alt: image alt text
+
+---
+# Testing & Automation
+
+### **Streamlining Processes and Enhancing Software Reliability**
+
+---
+
+### Project Overview:
+If you didn't catch this already, I love test. There’s nothing better than automating the mundane and ensuring hardwork is in a high-quality build. I love designing test environments. I'm passionate about it because it's an area in software engineering where strategy really comes into play. It’s not just about writing tests; it’s about crafting an ecosystem of fast, reliable, and informative testing processes. I'm passionate about separating concerns—unit tests, client automation tests, backend tests—and then building backwards, creating mocking solutions so each component is tested in speedy, isolation. It’s incredibly satisfying to create pipelines that streamline the development process, reducing the need for tedious manual testing while ensuring key features always work. Damn, I love it.
+
+### Key Contributions:
+
+- **Comprehensive Test Planning:** Developed and managed a detailed project plan for testing initiatives in JIRA, fostering team collaboration and providing clear visibility into project progress and resource needs.
+- **Test Framework Development:** Built a test automation framework from the ground up using Kotlin, Espresso, MockWebServer, GCP, and Firebase Test Lab, significantly enhancing test coverage and reliability.
+- **Efficiency Improvements:** Reduced regression testing and release times from two weeks to just two hours by creating a comprehensive test environment with automated runs and Slack-integrated reporting.
+- **Advocacy for Unit Testing:** Promoted best practices in unit testing by refactoring logic from views into view models, improving testability and software stability.
+- **Mocking Services:** Developed mocking services for backend and security components, enabling isolated testing and more reliable results.
+- **Automation for Non-Engineering Teams:** Designed and implemented an automation solution for the Sales team, developing a tool that automatically delivers ad screenshots to a Google Drive folder via a cron job.
+
+---
+
+**Date:** November 2019 - May 2021  
+**Client:** Various  
+**Category:** Testing & Automation, CI/CD, Test Framework Development 
+
+---
+caption: #what displays in the portfolio grid:
+  title: Websites
+  subtitle: Websites I've Built
+  thumbnail: ../assets/img/portfolio/blackabstract2.jpg
+  
+#what displays when the item is clicked:
+title: Websites
+subtitle: Websites I've Built
+image: ../assets/img/portfolio/cute_divider.png #main image, can be a link or a file in assets/img/portfolio
+alt: image alt text
+
+---
+[View The Klinks Website](http://theklinksmusic.com)  
+[View This Website](#)
+
+# Web Development
+
+### **Building Dynamic and Responsive Web Experiences**
+
+---
+
+### Project Overview:
+In my web development projects, I've focused on creating responsive, visually appealing, and user-friendly websites. Leveraging modern web technologies, I ensure that each site I build is not only aesthetically pleasing but also functionally robust and optimized for performance.
+
+### Key Contributions:
+
+- **HTML5 & CSS3:** Developed the structural foundation and styling for responsive and cross-browser compatible websites.
+- **JavaScript:** Implemented interactive elements and dynamic content loading, enhancing user engagement and experience.
+- **Sass (SCSS):** Used Sass for efficient and modular CSS development, allowing for easier maintenance and scalability of stylesheets.
+- **Bootstrap:** Leveraged Bootstrap to build responsive, mobile-first designs, ensuring a seamless user experience across all device types.
+- **Jekyll:** Utilized Jekyll for static site generation, enabling fast loading times and ease of content management.
+- **GitHub Pages:** Deployed and hosted static websites using GitHub Pages, facilitating easy updates and version control.
+- **SEO Optimization:** Integrated best practices for search engine optimization, improving site visibility and user traffic.
+
+**Date:** Ongoing  
+**Client:** Internal Projects  
+**Category:** Web Development, Responsive Design, Static Site Generation
+

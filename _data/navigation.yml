@@ -15,7 +15,7 @@ en: &DEFAULT_EN
       section: about
     - title: "Links"
       section: links
-    - title: "Portfolio"
+    - title: "Tech Resume"
       section: portfolio
 #    - title: "Timeline"
 #      section: timeline

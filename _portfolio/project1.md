@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Test Solutions
-  subtitle: Damn I Just Love Test
+  subtitle: Test is my fave shh
   thumbnail: ../assets/img/portfolio/blackabstract.jpg
   
 #what displays when the item is clicked:
 title: Test Solutions
-subtitle: Damn I Just Love Test
+subtitle: Ya I Love Test
 image: ../assets/img/portfolio/cute_divider.png #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 

@@ -23,9 +23,9 @@ en: &DEFAULT_EN
 #    buttonlink: "#about"
 
   about:
-    title: "INTRODUCTION"
-    text: "IYKNK"
-    body: "I’m a passionate Software Engineer who thrives on solving problems, turning ideas into reality, and continuous personal development. Early on, I learned the power of grit and perseverance. This mindset started when I applied myself towards earning a 4.0 in Computer Information Systems and Quantitative Statistics at TxState University, and even mastered billiards, eventually competing and winning at the collegiate level. These experiences taught me the power of dedication and the importance of setting intrinsic goals, which guided me toward pursuing my love for music. I taught myself guitar, started a band, and dove into songwriting, using creativity to practice authenticity while striving to impact others as music has impacted me. I'm passionate abouot music and moreso community. I’m someone who finds balance in life by embracing both the creative and strategic aspects of who I am. Software engineering is the yin to my musical yang. With a strong background in Native Android Development and Engineering Operations, I enjoy building innovative software solutions and automating the mundane. Recent projects include developing websites for local bands in Austin, TX as well as building an app in Flutter. I worked on the RetailMeNot Android App for 8 years as well. I’m particularly excited about streamlining processes and creating automated solutions, especially with the advancements in AI, which I leverage to craft efficient systems. I’m always eager to learn something new in this ever-evolving field, driven by a deep curiosity and a commitment to continuous improvement. I value being organized and thorough, striving to thoughtfully plan and execute each project. Whether working solo or as part of a team, I’m dedicated to making a real impact, and I believe that much of my success comes from the power of collaboration."
+    title: "Who is that?"
+    text: "Um..."
+    body: "I'm not totally sure. <br><br> For a long time I think I’ve been trying to be cool and now I’m just trying to be myself. <br><br> Along my journey of coolness I developed some pretty sweet Software Engineering skills. These skills are invaluable and I use them in nearly every pursuit. I enjoy how project-focused and hands-on engineering is, though my strong suits were always organization, attention to detail, empathetic leadership, and creativity. <br> <br> I love music. Like a flower wants to grow, I want to create. I have a band in atx called <a href=\"https://www.instagram.com/theklinks/\">The Klinks<a> and I study music and I songwrite. <br> <br> The only thing I love more than music is community. My family, my friends and acquaintances. <br> <br> I have an organizing business that organizes people’s homes. I choose to focus on that for money vs software engineering because I believe it makes a more positive impact on people’s lives. Mostly when I refer to ‘work’ though, I’m referring to music."
     section: about
 
   links:
@@ -53,8 +53,8 @@ en: &DEFAULT_EN
 #        icon: fab fa-markdown
 
   portfolio:
-    title: "<h2 class=\"section-heading text-uppercase\">Portfolio</h2>"
-    text: "Recent Engineering Projects"
+    title: "<h2 class=\"section-heading text-uppercase\">Software Engineering</h2>"
+    text: "Projects"
     section: portfolio
     closebutton: "Close Project"
 
