@@ -41,10 +41,10 @@ en: &DEFAULT_EN
         desc: "The Klinks"
         icon: fas fa-music
         url: https://theklinksmusic.com
-      # - title: "Organizing"
-      #   desc: "Decluttering Homes"
-      #   icon: fas fa-home
-      #   url: /assets/img/OrganizingFlyer.png
+      - title: "Organizing"
+        desc: "Decluttering Homes"
+        icon: fas fa-home
+        url: /assets/img/OrganizingFlyer.png
 
     sociallinks:
       social:
