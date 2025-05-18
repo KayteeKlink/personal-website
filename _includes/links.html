@@ -29,7 +29,7 @@
       {% for link in site.data.sitetext[site.locale].links.list %}
       <div class="col-md-4 mb-4">
         <span class="fa-stack fa-4x">
-          <a href="{{ link.url }}">
+          <a href="{{ link.url }}" target="_blank">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="{{ link.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
           </a>
