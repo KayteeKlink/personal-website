@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kaytee Klink</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap">
+<style>
+/* Layout: an empty frame of 90s film stock. Crushed blood-black, grain, halation. One line in the middle. Committed single dark look. */
+:root {
+  --stock: #0d0607;      /* saturated black, seen through red glass */
+  --print: #f1ddd8;      /* white with a red cast; reads as white */
+  --blood: #b3161f;      /* the red: slashes and handle */
+  --bleed: #8a0f1c;      /* halation red */
+  --type: "Courier Prime", "Courier New", ui-monospace, monospace;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body {
+  background: var(--stock); color: var(--print);
+  font-family: var(--type);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0;
+  overflow: hidden;
+}
+main { height: 100%; display: grid; place-items: center; }
+.line {
+  margin: 0; font-weight: 400; text-align: center;
+  font-size: clamp(13px, 2.2vw, 17px); letter-spacing: .28em; text-transform: lowercase;
+  text-shadow: 0 0 6px color-mix(in srgb, var(--bleed) 70%, transparent), 0 0 1px var(--print);
+}
+.line .sep { color: var(--blood); padding-inline: .6em; text-shadow: 0 0 8px var(--bleed); }
+.kiss { filter: saturate(.9) contrast(1.2) brightness(.9); }
+.cursor {
+  display: inline-block; width: .6em; height: 1.05em; vertical-align: -.18em; margin-left: .35em;
+  background: var(--print); box-shadow: 0 0 6px var(--bleed);
+  animation: blink 1.1s steps(1) infinite;
+}
+.handle {
+  position: fixed; left: 0; right: 0; bottom: 0; text-align: center;
+  padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  font-size: 11px; letter-spacing: .3em;
+}
+.handle a { color: var(--blood); text-decoration: none; text-shadow: 0 0 6px color-mix(in srgb, var(--bleed) 60%, transparent); }
+.handle a:hover, .handle a:focus-visible { color: var(--print); outline: none; }
+#grain { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: .09; mix-blend-mode: screen; }
+@keyframes blink { 50% { opacity: 0 } }
+@media (prefers-reduced-motion: reduce) { .cursor { animation: none } }
+@media (max-width: 520px) { .line .sep { display: block; height: .8em; visibility: hidden; } }
+</style>
+<style>body{margin:0}</style>
+</head>
+<body>
+
+<canvas id="grain" aria-hidden="true"></canvas>
+<main>
+  <p class="line">kaytee klink<span class="sep">/</span>2027<span class="sep">/</span>coming soon <span class="kiss" role="img" aria-label="wilted rose">🥀</span><span class="cursor" aria-hidden="true"></span></p>
+</main>
+<div class="handle"><a href="https://www.instagram.com/kayteeklink/">@kayteeklink</a></div>
+
+<script>
+(() => {
+  const c = document.getElementById("grain"), x = c.getContext("2d");
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let w, h, img;
+  const size = () => { w = c.width = Math.ceil(innerWidth / 2); h = c.height = Math.ceil(innerHeight / 2); img = x.createImageData(w, h); };
+  const frame = () => {
+    const d = img.data;
+    for (let i = 0; i < d.length; i += 4) { const v = Math.random() * 255 | 0; d[i] = v; d[i + 1] = v * .72; d[i + 2] = v * .74; d[i + 3] = 255; }
+    x.putImageData(img, 0, 0);
+  };
+  size(); frame();
+  addEventListener("resize", () => { size(); frame(); });
+  if (!still) setInterval(frame, 1000 / 12);
+})();
+</script>
+</body>
+</html>
