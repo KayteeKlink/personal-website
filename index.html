@@ -33,7 +33,7 @@ main { height: 100%; display: grid; place-items: center; }
 }
 .line .sep { color: var(--blood); padding-inline: .6em; text-shadow: 0 0 8px var(--bleed); }
 .kiss { filter: saturate(.9) contrast(1.2) brightness(.9); }
-.rose { width: 1.25em; height: 1.25em; vertical-align: -.28em; }
+.rose { width: 1.4em; height: 1.4em; vertical-align: -.32em; position: relative; z-index: 2; }
 /* wilted rose: Noto Emoji by Google, Apache License 2.0 */
 .cursor {
   display: inline-block; width: .6em; height: 1.05em; vertical-align: -.18em; margin-left: .35em;
@@ -58,7 +58,7 @@ main { height: 100%; display: grid; place-items: center; }
 
 <canvas id="grain" aria-hidden="true"></canvas>
 <main>
-  <p class="line">kaytee klink<span class="sep">/</span>2027<span class="sep">/</span>coming soon <img class="kiss rose" src="/assets/img/wilted-rose.svg" alt="wilted rose" width="16" height="16"><span class="cursor" aria-hidden="true"></span></p>
+  <p class="line">kaytee klink<span class="sep">/</span>2027<span class="sep">/</span>coming soon <img class="rose" src="/assets/img/wilted-rose.svg" alt="wilted rose" width="16" height="16"><span class="cursor" aria-hidden="true"></span></p>
 </main>
 <div class="handle"><a href="https://www.instagram.com/kayteeklink/">@kayteeklink</a></div>
 
